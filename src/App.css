@@ -1,0 +1,75 @@
+/* Umumiy body va font sozlamalari */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+/* Linklar uchun umumiy stil */
+a {
+  color: #2575fc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #5a3fcc;
+}
+
+/* Container uchun umumiy max-width va margin */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Responsive grid yoki flex qoidalari (agar kerak bo‘lsa) */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Telefonlar uchun umumiy responsive qoidalar */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .flex {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p, a {
+    font-size: 1rem;
+  }
+}
+
+/* Qo‘shimcha komponentlar uchun maxsus sinflarni bu yerda yozishingiz mumkin */
+
+/* Misol uchun buttonlar */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
