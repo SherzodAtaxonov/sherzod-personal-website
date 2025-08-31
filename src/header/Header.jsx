@@ -1,10 +1,12 @@
 import './Header.css'
 import { Link } from 'react-router-dom'
+import logo from '../assets/code.ico'
+
 function header() {
   return (
    <header className='home'>
     <div className="headerLogo">
-      <img className='logo' src="/code.ico" alt="logo" />
+      <img className='logo' src={logo} alt="logo" />
       <div className='title-container'>
       <h1>Sherzod</h1>
       <p>web</p>
