@@ -4,7 +4,7 @@ function header() {
   return (
    <header className='home'>
     <div className="headerLogo">
-      <img className='logo' src="/code.ico" alt="logo" />
+      <img className='logo' src="/assets/code-CK-V1OGj.ico" alt="logo" />
       <div className='title-container'>
       <h1>Sherzod</h1>
       <p>web</p>
