@@ -12,10 +12,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "functions": {
-    "app/api/**/*.js": {
-      "maxDuration": 10
-    }
-  }
+  ]
 }
