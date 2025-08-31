@@ -1,15 +1,16 @@
 import React, { useState } from 'react'
 import './Countries.css'
-import Canyon from '../assets/ivana-cajina-LTkQiDwTgBE-unsplash.jpg'
-import Niagara from '../assets/56335_kanada-niagara-falls-taras-widokowy.jpg'
-import Aurora from '../assets/Aurora-Borealis-600x428.jpg'
-import Machu from '../assets/R.jpg'
-import Long from '../assets/OIP.webp'
-import Lakes from '../assets/from-zagreb-plitvice-lakes-rastoke-private-tour-t436273-2.jpg'
-import Salar from '../assets/Salar-de-Uyuni-Wikimedia-Commons-1-2048x1278.jpg'
-import Reyn from '../assets/OIP (1).webp'
-import Antilopa from '../assets/antilop.jpg'
-import Mount from '../assets/mount.jpg'
+// Rasmlar public papkasidan yuklanadi
+const Canyon = '/images/ivana-cajina-LTkQiDwTgBE-unsplash.jpg'
+const Niagara = '/images/56335_kanada-niagara-falls-taras-widokowy.jpg'
+const Aurora = '/images/Aurora-Borealis-600x428.jpg'
+const Machu = '/images/R.jpg'
+const Long = '/images/OIP.webp'
+const Lakes = '/images/from-zagreb-plitvice-lakes-rastoke-private-tour-t436273-2.jpg'
+const Salar = '/images/Salar-de-Uyuni-Wikimedia-Commons-1-2048x1278.jpg'
+const Reyn = '/images/OIP (1).webp'
+const Antilopa = '/images/antilop.jpg'
+const Mount = '/images/mount.jpg'
 const countries = [
   {
     title: "Grand Canyon – USA",

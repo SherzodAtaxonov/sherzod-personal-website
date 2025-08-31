@@ -1,7 +1,8 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import goalsImg from '../assets/undraw_metrics_5v8d.svg' // Rasm yo'lini moslang
+// Rasm public papkasidan yuklanadi
+const goalsImg = '/images/undraw_metrics_5v8d.svg'
 import './Goals.css' // CSS fayl alohida
 
 function Goals() {
