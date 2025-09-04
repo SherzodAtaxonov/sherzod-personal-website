@@ -79,7 +79,7 @@ function Contact() {
           
           {/* Contact Modal */}
           {showModal && (
-            <div className="contact-modal-overlay" onClick={closeModal}>
+            <div className="modal" onClick={closeModal}>
               <div className="contact-modal-content" onClick={(e) => e.stopPropagation()}>
                 <div className="modal-header">
                   <h3>📧 Send me a message</h3>
