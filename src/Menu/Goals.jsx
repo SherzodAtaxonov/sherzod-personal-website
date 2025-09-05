@@ -1,12 +1,10 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-// Rasm public papkasidan yuklanadi
-const goalsImg = '/images/undraw_metrics_5v8d.svg'
-import './Goals.css' // CSS fayl alohida
+const goalsImg = `${import.meta.env.BASE_URL}undraw_metrics_5v8d.svg`
+import './Goals.css'
 
 function Goals() {
-  // Maqsadlar ro'yxati
   const goals = [
  {
     id: 1,

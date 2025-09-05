@@ -1,8 +1,9 @@
 
-import { BrowserRouter as Router,  Routes, Route } from 'react-router-dom'
+
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+
 import Home from './Menu/Home'
 import About from './Menu/About'
-import Countries from './Menu/Countries'
 import Goals from './Menu/Goals'
 import Contact from './Menu/Contact'
 import Header from './header/Header'
@@ -16,7 +17,6 @@ function App() {
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>} />
-      <Route path='/countries' element={<Countries/>} />
       <Route path='/goals' element={<Goals />} />
       <Route path='/contact' element={<Contact/>} />
      </Routes>
